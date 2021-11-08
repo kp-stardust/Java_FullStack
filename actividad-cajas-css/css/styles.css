@@ -1,0 +1,55 @@
+#contenedor {
+    display:flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    margin-top: 17px;
+    justify-content:left;
+    margin-left: 10px;
+}
+
+p{
+    font-size: 50px;
+    line-height: 0px;
+    margin-top: 25px;
+}
+
+#caja1 {
+    background-color: red;
+    height: 350px;
+    width: 350px;
+    text-align: left;
+    margin: 7px;
+    border: black;
+    color: yellow;
+}
+
+#caja2 {
+    background: black;
+    height: 350px;
+    width: 350px;
+    text-align: left;
+    margin: 7px;
+    border: black;
+    color: white;
+}
+
+#caja3 {
+    background: red;
+    height: 350px;
+    width: 350px;
+    text-align: left;
+    margin: 7px;
+    border: black;
+    color: yellow;
+}
+
+#caja4 {
+    background: red;
+    height: 350px;
+    width: 350px;
+    text-align: left;
+    margin: 7px;
+    border: black;
+    color: yellow;
+}

@@ -1,0 +1,131 @@
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#ignite {
+    color:black;
+    text-decoration-style: dotted;
+   
+}
+
+
+nav img {
+    width: 120px;
+}
+
+p h2{
+    text-align: center;
+}
+
+#cards-img1, #cards-img2, #cards-img3 {
+    filter: brightness(50%)
+}
+   
+main {
+    margin-bottom: 15px;
+}
+
+
+
+.titulo-principal {
+    font-size: 42px;
+    
+}
+#imagen1, #imagen2, #imagen3 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    left: 540px;
+    top: 430px;
+    text-align: right;
+    width: 49%;
+    font-size: x-large;
+}
+
+
+
+#boton-orador1, #boton-orador2, #boton-orador3 {
+    border-color: white;
+    color:white;
+    font-size: x-large;
+    
+}
+
+#boton-ticket {
+    font-size: x-large;
+}
+
+#bs-octubre {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+
+footer {
+    background-color: #183F5A;
+    color: white;
+    height: 115px;
+    margin-top: 20px; 
+    
+
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    
+}
+
+
+
+.bs-title {
+    color: white;
+    font-size: xx-large;
+}
+
+.texto-bs {
+    color: white;
+    text-align: left;
+    letter-spacing: -0.5px;
+}
+
+#button-info {
+    border-color: white;
+    color:white;
+}
+
+.card-title {
+    font-size: x-large;
+}
+
+#card-bs {
+    background-color: #383C3E;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.btn-light {
+    width: 100%;
+    background-color: #A1E248;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+#options {
+    margin-top: 23px;
+}
+
+.desc {
+    font-weight: bold;
+}

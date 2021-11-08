@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Formulario HTML</title>
+</head>
+<body>
+    <header style="background-image: url(img/flores.jpg); background-repeat: no-repeat;
+    background-size: cover; height: 250px; position:relative;">
+        <a href="page2.html">
+            <img class="logo" src="img/faviconn-32x32.png" alt="logo">
+        </a>    
+    </header>
+    <div>
+        <nav>
+            <a href="#About">Sobre mí</a>
+            <a href="#formulario">Formulario</a>
+            <a href="#video">Video</a>
+        </nav>
+    </div>
+    <main>
+        <section>
+            <h2 id="About">Acerca de mí</h2>
+            <p> Hola, soy Karina, estudio las carreras de Analista Programador/Licenciatura 
+                en Sistemas, y las cosas que me gustan son: la programación, aprender cosas nuevas, escuchar música, leer, hacer cuadernos 
+                artesanales, y también me gusta pasar tiempo con mis mascotas Nayla (mi gata) y Sofía (mi perra).</p>
+        </section>
+
+        <center>
+            <section>
+                <h2 id="formulario">Formulario</h2>
+                <form>
+                    <fieldset>
+                        <div>
+                            <div class="elementos">
+                                <label for="usuario">Usuario</label>
+                                <input type="text" placeholder="Tu nombre de usuario"> 
+                            </div>
+                            <div class="elementos">
+                                <label for="dni">Documento</label>
+                                <input type="number" placeholder="Tu número de DNI">
+                            </div>
+                            <div class="elementos">
+                                <label for="contraseña">Contraseña</label>
+                                <input type="password" placeholder="Tu contraseña">
+                            </div>
+                            <div class="elementos">    
+                                <label for="email">E-mail</label>
+                                <input type="email" placeholder="Tu correo electrónico">
+                            </div>
+                            <div class="elementos">    
+                                <label for="telefono">Nro. de teléfono</label>
+                                <input type="tel" placeholder="Tu teléfono">
+                            </div>
+                            <div class="elementos">
+                                <label for="web">Sitio Web</label>
+                                <input type="url" placeholder="Tu sitio web">
+                            </div>
+                            <div class="elementos">
+                                <label>Lenguaje favorito</label>
+                                <input type="radio" name="lenguaje" value="Java" checked> 
+                                <label for="Java">Java</label>
+                                <input type="radio" name="lenguaje" value="Python">
+                                <label for="Python">Python</label>
+                                <input type="radio" name="lenguaje" value="Ruby">
+                                <label for="Ruby">Ruby</label>
+                            </div>
+                            <div>
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </div>    
+                    </fieldset>
+                </form>
+            </section>
+        </center>
+
+        <section>
+                <h2 id="video">Lo que la gente piensa que es programar VS lo que realmente es</h2>
+                <div style="text-align:center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/HluANRwPyNo" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe></div>
+        </section>
+
+    </main>
+
+    <footer>
+            <h4>Karina Villegas - Año 2021 (Página 1)</h4>
+    </footer>
+</body>
+</html>

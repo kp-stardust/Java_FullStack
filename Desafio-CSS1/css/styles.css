@@ -1,0 +1,27 @@
+
+#barra {
+    text-align: right;
+    background-color: darkgrey;
+    height: 35px;
+}
+
+#html-pic {
+    width: 18%;
+}
+
+#css-pic {
+    width: 13%;
+}
+
+
+.content {
+    width: min(50rem, 100%); margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+    background-color: darkgrey;
+}
+
